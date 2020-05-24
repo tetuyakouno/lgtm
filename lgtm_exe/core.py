@@ -1,4 +1,6 @@
 import click
+from lgtm.drawer import save_with_message
+from lgtm.image_source import get_image
 
 @click.command()
 @click.option('--message', '-m', default='LGTM',
@@ -7,9 +9,8 @@ import click
 def cli(keyword, message):
     """A tool of creation LGTM picture"""
     lgtm(keyword, message)
-    click.echo('lgtm') #for check
 
 
 def lgtm(keyword, message):
-    # coding logic here.
-    pass
+    with get_image(keyword) as fp:
+        save_with_message(fp, message)
