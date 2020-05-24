@@ -1,6 +1,6 @@
 import click
-from lgtm.drawer import save_with_message
-from lgtm.image_source import get_image
+from lgtm_exe.drawer import save_with_message
+from lgtm_exe.image_source import get_image
 
 @click.command()
 @click.option('--message', '-m', default='LGTM',

@@ -1,4 +1,4 @@
-from PIL imoprt Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont
 
 # Setting message ratio 
 MAX_RATIO = 0.8
