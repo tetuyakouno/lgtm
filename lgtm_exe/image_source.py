@@ -35,7 +35,7 @@ KeywordImage = _LoremFlickr
 # The word is started by a captal letter 
 def ImageSource(keyword):
     """Return a suitable image class"""
-    if keyword.startswitch(('http://', 'https://')):
+    if keyword.startswith(('http://', 'https://')):
         return RemoteImage(keyword)
     elif Path(keyword).exists():
         return LocalImage(keyword)
