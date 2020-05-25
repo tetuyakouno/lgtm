@@ -1,6 +1,6 @@
 import requests
 from io import BytesIO
-from pathlib import path
+from pathlib import Path
 
 class LocalImage:
     """get a picture from filepath"""
