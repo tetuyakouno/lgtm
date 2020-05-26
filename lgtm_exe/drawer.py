@@ -6,7 +6,7 @@ MAX_RATIO = 0.8
 FONT_MAX_SIZE = 256
 FONT_MIN_SIZE = 24
 # The path of font file
-FONT_NAME = '/Library/Fonts/Arial Bold.ttf'
+FONT_NAME = '/Users/kounotetsuya/myDev/tmp/Arial Bold.ttf'
 FONT_COLOR_WHITE = (255, 255, 255, 0)
 # CONST for output
 OUTPUT_NAME = 'output.png'
